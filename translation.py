@@ -1,54 +1,54 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
+    START_TEXT = """مرحبا,
 
-This is a Telegram URL Upload Bot!
+مرحبا انا upload bot يمكنني تحميل اي ملف تريده الي تيليجرام!
 
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+<b>ارسل لي اي رابط مباشر و ساقوم بتحميله الي تيليجرام, نقدر نحمل لك الملفات الي تيليجرام كا ملف/فيديو</b>
 
-/help for more details..
+/help للمزيد من التفاصيل..
 
-Support Group : @TroJanzSupport
+جروب الدعم : @TroJanzSupport
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """مرحبا انا upload bot ..
     
-1. Send url (Link | New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
+1. ارسل url (الرابط | اسم جديد معى صيغه الملف).
+2. ارسل صوره اختياريه لواجهه الملف (اختياري).
+3. اضغط علي الازرار.
+   SVideo - يعطيك ملف كا فيديو معى الصور
+   DFile  - يعطيك ملف معى صور
+   Video  - يعطيك الملف كا فيديو بدون صور
+   DFile  - يعطيك ملف بدون صور
 
-Support Group : @TroJanzSupport
+جروب الدعم : @TroJanzSupport
 """
 
-    FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
+    FORMAT_SELECTION = """حدد التنسيق المطلوب: <a href='{}'>قد يكون حجم الملف تقريبيًا</a>
     
-Send your custum thumbnail if required.
-You can use /deletethumbnail to delete the auto-generated thumbnail."""
+إرسال الصورة المصغرة المخصصة الخاصة بك إذا لزم الأمر.
+يمكنك استخدام /deletethumbnail لحذف الصورة المصغرة التي تم إنشاؤها تلقائيًا."""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | newfilename | username | password"""
+    SET_CUSTOM_USERNAME_PASSWORD = """إذا كنت ترغب في تنزيل مقاطع فيديو متميزة, تقدم بالتنسيق التالي:
+الرابط | اسم ملف جديد | اسم المستخدم | كلمه السر"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = "<b>👉 اصنع بوتك الخاص.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>اضغط هنا لتحفظ المشروع و تصنع بوتك!!</a>"
     
-    DOWNLOAD_START = "Trying to download your file..."
+    DOWNLOAD_START = "جاري تحميل ملفك..."
     
-    UPLOAD_START = "Uploading now.."
+    UPLOAD_START = "جاري ارسال ملفك.."
     
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "تم التحميل في {} ثانيه. \n\تم الارسال في {} ثانيه."
 
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "تم التحميل في {} ثانيه.\حجم الملف المكتشف: {}\اسف. لكن, لا يمكنني تحميل ملفات أكبر من 1.95 جيجابايت بسبب قيود Telegram API."
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it."
+    SAVED_CUSTOM_THUMB_NAIL = "تم حفظ الصورة المصغرة المخصصة. سيكون هذا دائمًا.\n\استخدم /deletethumbnail لازالتها."
 
-    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom thumbnail cleared succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "تم مسح الصورة المصغرة المخصصة بنجاح."
 
     CUSTOM_CAPTION_UL_FILE = " "
 
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    SLOW_URL_DECED = "يا انت يبدو أنه عنوان URL بطيء جدًا. منذ أن كنت تخرب منزلي, أنا لست في حالة مزاجية لتحميل هذا الملف. في غضون ذلك ، لماذا لا تجرب هذا:==> https://shrtz.me/PtsVnf6 واحصل لي على عنوان URL سريع حتى أتمكن من التحميل إلى Telegram, دون أن أبطأ للمستخدمين الآخرين."
 
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
+    NO_VOID_FORMAT_FOUND = "خطا...\n<b>YouTubeDL</b> يقول: {}"

@@ -3,7 +3,7 @@ import os
 class Config(object):
 
     
-    TG_BOT_TOKEN = 
+    TG_BOT_TOKEN = 1524183862:AAFnjGpXdSMadbyE3tJv2BXhKLxnzbNHHf0
 
     
     APP_ID = 1634602

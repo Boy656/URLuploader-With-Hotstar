@@ -10,7 +10,7 @@ class Config(object):
     API_HASH = 
 
     
-    AUTH_USERS = 
+    AUTH_USERS = 1632427678
 
     
 

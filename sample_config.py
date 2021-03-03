@@ -6,8 +6,8 @@ class Config(object):
     TG_BOT_TOKEN = 
 
     
-    APP_ID = 
-    API_HASH = 
+    APP_ID = 1634602
+    API_HASH = 06b3c0ea39c0d207e7974d585da02cb0
 
     
     AUTH_USERS = 1632427678
